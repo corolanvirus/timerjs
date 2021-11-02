@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif !important;
+}
+h3 {
+  font-size: 2rem !important;
+}
+.container {
+  width: 160px !important;
+}
+.form-group {
+  display: flex;
+}
+#countdown {
+  font-size: 13rem;
+}
+
+*{
+    color: purple;
+}
+
+.btn-secondary{
+    background-color: purple;
+    border-color: purple;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary{
+    background-color: purple;
+    border-color: purple;
+}
+
+
+

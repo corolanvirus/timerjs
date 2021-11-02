@@ -1,0 +1,20 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+
+<body class="text-center pt-5 bg-dark text-warning">
+
+    <h3 class="mb-5">Entrez le nombre de minutes</h3>
+
+    <div class="container">
+        <div class="form-group">
+            <input type="text" class="form-control text-center" min="1" max="99" size="1" maxlength="2" id="choice">
+            <button class="btn btn-secondary" type="button" onclick="getInputValue();">
+                GO
+            </button>
+        </div>
+    </div>
+
+    <div id="countdown"></div>
+    <script src="script.js"></script>
+</body>
